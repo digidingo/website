@@ -185,6 +185,16 @@ article {
   max-width: 1400px;
   margin: auto; }
 
+.contact-item {
+  display: block;
+  margin: .4rem; }
+  .contact-item input {
+    width: 250px; }
+  .contact-item textarea {
+    display: block;
+    width: 400px;
+    height: 150px; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
