@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="{{ .size }}" viewBox="0 0 816 467">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cc007e;
+        stroke: #cc007e;
+        opacity: 0.9;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ff4dbb;
+        stroke: #ff4dbb;
+        opacity: 0.75;
+      }
+
+      .cls-3 {
+        fill: #80004f;
+        stroke: #80004f;
+        opacity: 0.95;
+      }
+
+      .cls-4 {
+        font-size: 122.692px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Rockwell;
+      }
+    </style>
+  </defs>
+  <path id="Veelhoek_1" data-name="Veelhoek 1" class="cls-1" d="M263.033,231.254L139.165,301.865,16.081,229.9,16.865,87.32,140.732,16.71,263.816,88.677Z"/>
+  <path id="Veelhoek_2" data-name="Veelhoek 2" class="cls-2" d="M263.033,373.492L139.165,444.1,16.081,372.136l0.783-142.578,123.868-70.61,123.084,71.967Z"/>
+  <path id="Veelhoek_3" data-name="Veelhoek 3" class="cls-3" d="M386.917,307.42L263.05,378.031,139.966,306.064l0.783-142.577L264.617,92.876,387.7,164.843Z"/>
+  <text id="DigiDINGO" class="cls-4" transform="translate(475.3 266.886) scale(0.918)"><tspan x="0">DigiDINGO</tspan></text>
+</svg>

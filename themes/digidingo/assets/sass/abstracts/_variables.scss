@@ -1,0 +1,11 @@
+@use "sass:color";
+
+$primary-color: #14C1CC;
+$primary-text-color: #fff;
+
+$cta-color: #FF009D;
+$cta-hover-color: lighten($cta-color, 25%);
+$cta-text-color: #fff;
+
+$background-color: #fff;
+$content-text-color: #000;

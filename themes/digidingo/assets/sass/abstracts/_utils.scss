@@ -1,0 +1,31 @@
+.list {
+    list-style-type: none;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.va {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ha {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}

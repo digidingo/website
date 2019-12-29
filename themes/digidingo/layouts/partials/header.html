@@ -1,0 +1,23 @@
+<div class="header sticky">
+    <nav class="nav" role="navigation">
+        <a href="/" title="{{ .Site.Title }}" rel="noopener" aria-label="{{ .Site.Title }}——Opens homepage">
+            {{ partial "svg/logo.svg" (dict "size" "60px") }}
+          </a>
+        <div class="nav-menu">
+
+            {{ if .Site.Menus.main }}
+                <ul class="nav-sections">
+                {{ range .Site.Menus.main }}
+                <li class="nav-link list dib va">
+                    <a class="" href="{{ .URL }}" title="{{ .Name }} page">
+                    {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+                </ul>
+            {{ end }}
+
+            {{ partialCached "social.html" . }}
+        </div>
+    </nav>
+</div>
