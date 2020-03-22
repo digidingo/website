@@ -28,7 +28,10 @@
         font-size: 122.692px;
         fill: #fff;
         text-anchor: middle;
-        font-family: Rockwell;
+        font-family: 'Rockwell';
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
       }
     </style>
   </defs>
